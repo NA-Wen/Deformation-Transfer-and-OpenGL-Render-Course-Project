@@ -36,10 +36,6 @@ The code structure consists of the main file `transformation.py` and a supportin
 3. To address the sensitivity to transformation, the Kabsch algorithm is employed for rotation alignment, while simple first vertex position alignment is used for translation transformation.
 
 All experimental results related to this report are stored in the `mesh` folder for reproducibility.
-
-### Acknowledgements
-Instead of using the `OpenMesh` module, the project's implementation of mesh utilities draws significant inspiration from the resources available in [Deformation-Transfer-for-Triangle-Meshes](https://github.com/mickare/Deformation-Transfer-for-Triangle-Meshes), which provides a more lightweight and easily adaptable approach.
-
 ---
 
 ## OpenGL Rendering Project
@@ -65,6 +61,8 @@ python main.py {filename}
 - **Rotation**: Hold the **left mouse button** to rotate the object in the display.
 - **Light Position Adjustment**: Use the keyboard's arrow keys and W, S keys to adjust the light source position. **The up and down keys adjust the Z-coordinate of the light, W/S adjust the Y-coordinate, and the left/right keys adjust the X-coordinate.**
 
+---
+
 ### Acknowledgements
-The project's implementation of Pythonic style is greatly assisted by the resources found in [基于python的OpenGL](https://www.cnblogs.com/jiujiubashiyi/p/16479817.html).
+Instead of using the `OpenMesh` module, the df project's implementation of mesh utilities draws significant inspiration from the resources available in [Deformation-Transfer-for-Triangle-Meshes](https://github.com/mickare/Deformation-Transfer-for-Triangle-Meshes), which provides a more lightweight and easily adaptable approach. And the openGL rendering project's implementation of Pythonic style is greatly assisted by the resources found in [基于python的OpenGL](https://www.cnblogs.com/jiujiubashiyi/p/16479817.html).
 

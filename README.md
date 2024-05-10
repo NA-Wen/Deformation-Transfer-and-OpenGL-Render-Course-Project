@@ -14,8 +14,6 @@ pip install -r requirements.txt
 
 ---
 ## Deformation Transfer Project
->This project is carried out as part of a course assignment for "Exploration and Practice in Software Engineering (2)", supervised by [Prof. Feng Xu](http://xufeng.site/).
-
 This project focuses on the deformation transfer of triangular meshes, replicating [Deformation Transfer for Triangle Meshe](https://people.csail.mit.edu/jovan/assets/papers/sumner-2004-dtt.pdf). The method does not require the source and target meshes to have the same number of points or faces. It achieves corresponding deformation transfer by establishing a correspondence between the source and target meshes.
 
 ### Running the Code
@@ -45,8 +43,6 @@ Instead of using the `OpenMesh` module, the project's implementation of mesh uti
 ---
 
 ## OpenGL Rendering Project
-
-
 This project is an assignment to create a simple rendering tool using OpenGL to visualize the 3D results of Deformation Transfer.
 This project implements 3D model loading with Vertex Array Objects (VAO), Vertex Buffer Objects (VBO), and Element Buffer Objects (EBO) and 3D projection, which involves camera models and two shading frequencies based on the Blinn-Phong reflection model: Gouraud and Phong. 
 For better observe the phenomenon of rendering, two more features are added:

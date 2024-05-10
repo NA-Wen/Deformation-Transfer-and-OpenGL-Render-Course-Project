@@ -64,5 +64,5 @@ python main.py {filename}
 ---
 
 ### Acknowledgements
-Instead of using the `OpenMesh` module, the df project's implementation of mesh utilities draws significant inspiration from the resources available in [Deformation-Transfer-for-Triangle-Meshes](https://github.com/mickare/Deformation-Transfer-for-Triangle-Meshes), which provides a more lightweight and easily adaptable approach. And the openGL rendering project's implementation of Pythonic style is greatly assisted by the resources found in [基于python的OpenGL](https://www.cnblogs.com/jiujiubashiyi/p/16479817.html).
+Instead of using the `OpenMesh` module, the df project's implementation of mesh utilities draws significant inspiration from the resources available in [Deformation-Transfer-for-Triangle-Meshes](https://github.com/mickare/Deformation-Transfer-for-Triangle-Meshes), which provides a more lightweight and easily adaptable approach. And the OpenGL rendering project's implementation of Pythonic style is greatly assisted by the resources found in [基于python的OpenGL](https://www.cnblogs.com/jiujiubashiyi/p/16479817.html).
 
